@@ -4,6 +4,6 @@ spring:
 datasource:
   url: jdbc:mysql://mysql:3306/dbMySql1
   username: user
-  password: password 
+  password: lovc36UxHfUpDq1M 
 jpa:
   hibernate.ddl-auto: update
