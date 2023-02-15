@@ -3,11 +3,7 @@ port: 8080
 spring:
 datasource:
   url: jdbc:mysql://mysql:3306/dbMySql1
-  username: root
-  password: root
-  mvc:
-  pathmatch:
-    matching-strategy: ant_path_matcher
+  username: user
+  password: password 
 jpa:
   hibernate.ddl-auto: update
-  spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
